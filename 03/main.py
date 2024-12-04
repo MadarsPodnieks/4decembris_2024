@@ -6,8 +6,9 @@ num = int(input("Choose a number: "))
 new_list = []
 #Cik simboli ir iekšā "a" sarakstā
 for i in a:
-#Ja simbolu skaits ir mazāks
+#Ja simbolu skaits ir mazāks par ievadīto skaitli
     if i < num:
+#Tad Jaunam sarakstam pievieno simbolu skaitu
         new_list.append(i)
-
+#Izprintēt Jauno sarakstu
 print(new_list)
