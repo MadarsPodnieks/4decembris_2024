@@ -11,4 +11,4 @@ for i in a:
 #Tad Jaunam sarakstam pievieno simbolu skaitu
         new_list.append(i)
 #Izprintēt Jauno sarakstu
-print(new_list)
+print(new_list) 
